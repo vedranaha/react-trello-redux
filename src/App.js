@@ -6,7 +6,7 @@ import "./App.css";
 function App(props) {
   return (
     <div className="App">
-      <div className="Header">React Trello Clone</div>
+      <div className="Header">React Trello</div>
       <Controls />
       <TodosList />
     </div>
