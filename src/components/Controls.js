@@ -34,7 +34,7 @@ const mapDispatchToProps = (dispatch) => ({
     dispatch({
       type: "ADD_TODO",
       payload: text,
-      completed: Math.random() > 0.5 ? true : false,
+      completed: false,
       id: Date.now(),
     }),
   changeVisibility: (setting) =>
