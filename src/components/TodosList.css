@@ -1,15 +1,20 @@
 .todoList {
-  display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
   justify-content: center;
-  align-items: stretch;
 }
 .todo {
   background-color: wheat;
   padding: 1em;
   margin: 0.5em;
   display: flex;
+  flex-direction: column;
+  width: fit-content;
   justify-content: space-between;
+  height: fit-content;
 }
 .todo .isCompleted {
   color: grey;
@@ -19,8 +24,8 @@
   font-size: 0.4em;
 }
 .todo .text {
-  color: black;
-  font-weight: 600;
+  color: rgb(40, 41, 43);
+  font-weight: 500;
   font-size: 1.2em;
 }
 .todo.completed {
@@ -31,8 +36,6 @@
 }
 .todo .actions {
   min-width: 120px;
-  display: flex;
-  flex-flow: column;
 }
 .todo .actions button {
   all: unset;

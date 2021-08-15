@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import "./TodoList.css";
+import "./TodosList.css";
 import {
   deleteTodoAction,
   toggleCompleteAction,
@@ -26,6 +26,7 @@ function filterTodos(todos = [], filter) {
 function TodoList(props) {
   return (
     <div className="todoList">
+      <header className="listTitle"> Todo list</header>
       {filterTodos(props.todos, props.filter).map((todo) => (
         <div
           className={`todo ${todo.completed ? "completed" : "complete"}`}
