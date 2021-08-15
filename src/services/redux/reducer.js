@@ -2,17 +2,17 @@ const initialState = {
   visibility: "ALL",
   todos: [
     {
-      text: "todo list 1",
+      text: "Eat",
       id: 1,
       completed: false,
     },
     {
-      text: "todo list 2",
+      text: "Sleep",
       id: 2,
       completed: false,
     },
     {
-      text: "todo list 3",
+      text: "Swimm",
       id: 3,
       completed: false,
     },
