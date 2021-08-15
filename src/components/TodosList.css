@@ -6,6 +6,10 @@
   align-content: center;
   justify-content: center;
 }
+.listTitle {
+  align-items: center;
+  color: white;
+}
 .todo {
   background-color: wheat;
   padding: 1em;
