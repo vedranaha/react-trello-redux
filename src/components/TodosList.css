@@ -5,6 +5,8 @@
   flex-wrap: nowrap;
   align-content: center;
   justify-content: flex-start;
+  min-height: 30vh;
+  min-width: 15vh;
 }
 .listTitle {
   display: flex;
